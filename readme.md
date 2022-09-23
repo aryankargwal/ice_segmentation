@@ -37,8 +37,23 @@ Once the images were annotated, the images needed to be renamed and cropped due 
 Before training the individual models on the desired dataset, I decided to go for a transfer learning method wherein, I aimed to get the weights from training the models on bigger datasets like ImageNet and the Caravan Dataset and then use them for Ice Segmentation on the Custom Dataset.
 
 ### U-Net
+U-Net is a CNN architecture designed specifically to deal with image segmentation in Bio Medical Images. It can be used to highlight the points of interest all the while semantically segmenting each pixel to the desired class.
+
+<img src= "https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png">
+
+It usually is a pre-trained classification network like VGG/ResNet where you apply convolution blocks followed by a maxpool downsampling to encode the input image into feature representations at multiple different levels. The decoder is the second half of the architecture.
 ### PSP Net
-### Mask R-CNN
+PSPNet, or Pyramid Scene Parsing Network, is a semantic segmentation model that utilises a pyramid parsing module that exploits global context information by different-region based context aggregation. The local and global clues together make the final prediction more reliable.
+
+<img src= "https://production-media.paperswithcode.com/methods/new_pspnet-eps-converted-to.jpg">
+
+Given an input image, PSPNet use a pretrained CNN with the dilated network strategy to extract the feature map.
+## Steps to run the Repository
+Download the repository using the command: <br>
+`git clone https://github.com/aryankargwal/ice_segmentation.git`
+
+Download the Requirements to run the code using the command: <br>
+`pip install -r requirements.txt`
 ## TODO
 - [x] Literature Review
 - [x] Experiment List
