@@ -1,4 +1,8 @@
 # Ice Segmentation using Deep Learning
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)<br>
 This repository holds the various findings and experimentations that went into creating a preliminary Machine Learning model for Ice Segmentation using Deep Learning methods for the regions affected by this situation in the Inuit-Nunavik Region.
 
 With the help of the CAIMAN network we had over 500 images at our disposal initially to work with and develop a model that would work similar, if not better, than pre-existing models for the same task found during the [literature review](https://docs.google.com/spreadsheets/d/1KfXr8ZhjXgLT4AE_IYlHgQrWP2ulJYbEjijWrnaoA2o/edit?usp=sharing).
