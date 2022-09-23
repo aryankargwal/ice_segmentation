@@ -1,7 +1,7 @@
 import cv2
 import glob
 
-images = glob.glob(..data.original*jpg)
+images = glob.glob(data.original*jpg)
 
 for img in images:
     img = cv2.imread(img)
